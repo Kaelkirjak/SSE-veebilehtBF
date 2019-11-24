@@ -1,0 +1,25 @@
+body {
+	background-image: url(taustapilt.jpg);
+}
+h1 {
+	color: white;
+	font-family: "Bookman";
+	font-size: 100px;
+	text-align: center;
+}
+#tutvustus {
+	color: white;
+	font-family: "Bookman";
+	font-size: 40px;
+}
+.klubid {
+	color: white;
+	font-family: "Bookman";
+	font-size: 30px;
+	text-align: left;
+	padding: 20px;
+}
+.pildid2 {
+	height: 450px;
+	width: auto;
+}
