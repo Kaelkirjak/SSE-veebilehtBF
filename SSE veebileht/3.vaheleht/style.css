@@ -1,3 +1,13 @@
 p {
-color: red;
+color: white;
+font-size: 50px;
+}
+body{
+    background-image: url(forrest_taustapilt.jpg);
+}
+h1{
+    font-family: 'Lucida Console';
+    color: white;
+    text-align: center;
+    font-size: 100 px;
 }
