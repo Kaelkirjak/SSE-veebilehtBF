@@ -10,6 +10,7 @@
       margin: auto;
 	  border-style: solid;
 	  border-color: black;
+	  border-width: 4px;
       }
       /* Next & previous buttons */
       .prev, .next {
@@ -142,5 +143,8 @@
 	  }
 	  #map {
 		  width: 600px;
-		  height: 413px;
+		  height: 506px;
+		  border-style: solid;
+	      border-color: black;
+		  border-width: 4px;
 	  }
