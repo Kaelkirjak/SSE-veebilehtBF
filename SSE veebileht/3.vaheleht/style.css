@@ -1,10 +1,12 @@
 p {
-color: whitesmoke;
 font-size: 20px;
+font-family: 'Lucida Console';
+color:white;
+
 }
 body{
     background-image: url(forrest_taustapilt.jpg);
-    background-size: 3000px 1100px;
+    background-size: 3000px 1500px;
     background-repeat:no-repeat;
    
 }
@@ -22,6 +24,8 @@ h2{
     color: rgb(188, 219, 12);
     text-align: center;
     font-size: 80px;
+    margin: 20px 5px 0px 20px; 
+   padding: 0px 0px 0px 0px;
 }
 ul{
     font-family: 'Lucida Console';
@@ -35,4 +39,26 @@ a{
     text-decoration: none;
 }
 
+#avatud{
+    float: right;
+    font-family: 'Lucida Console';
+    font-size: 20px;
 
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+
+img:hover {
+    -webkit-transform: scale(1.4,1.4);
+  }
+
+  #tabel{
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }

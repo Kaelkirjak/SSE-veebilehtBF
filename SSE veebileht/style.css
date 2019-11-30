@@ -1,25 +1,84 @@
 body {
-	background-image: url(taustapilt.jpg);
+	background-image: url(taustapilt2.jpg);
+	background-size: 3000px 1500px;
+    background-repeat:no-repeat;
 }
 h1 {
 	color: white;
-	font-family: "Bookman";
+	font-family: "Codystar";
 	font-size: 100px;
 	text-align: center;
+	-webkit-animation:colorchange 20s infinite alternate;
 }
+
+@-webkit-keyframes colorchange {
+	0% {
+	  
+	  color: blue;
+	}
+	
+	10% {
+	  
+	  color: #8e44ad;
+	}
+	
+	20% {
+	  
+	  color: #1abc9c;
+	}
+	
+	30% {
+	  
+	  color: #d35400;
+	}
+	
+	40% {
+	  
+	  color: purple);
+	}
+	
+	50% {
+	  
+	  color: orange;
+	}
+	
+	60% {
+	  
+	  color: red;
+	}
+	
+	70% {
+	  
+	  color: #2980b9;
+	}
+	80% {
+   
+	  color: #f1c40f;
+	}
+	
+	90% {
+   
+	  color: #2980b9;
+	}
+	
+	100% {
+	  
+	  color: pink;
+	}
+  }
 #tutvustus {
 	color: white;
-	font-family: "Bookman";
-	font-size: 40px;
+	font-family: 'Libre Caslon Display';
+	font-size: 30px;
 }
 .klubid {
 	color: white;
-	font-family: "Bookman";
-	font-size: 30px;
+	font-family: 'Libre Caslon Display';
+	font-size: 25px;
 	text-align: left;
 	padding: 20px;
 }
 .pildid2 {
-	height: 450px;
+	height: 300px;
 	width: auto;
 }
