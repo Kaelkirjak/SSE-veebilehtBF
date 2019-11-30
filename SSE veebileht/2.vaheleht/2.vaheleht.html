@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Lehe päis</title>
+	<title>Club Illusion</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
 
 <body>
-<p>joyjoy2222222222222priit</p>
+	<h1 id="liigutus">Club illusion</h1>
+	<h2 id="sotsiaalmeedia">
+        <a href="https://www.instagram.com/klubiillusion/?hl=en"><img id="instagram" src="instagram.png" alt="Illusioni instagram"></a>
+        <a href="https://www.facebook.com/klubi.illusion/"><img id="facebook" src="facebook.png" alt="Illusioni facebook"></a>
+        <a href="http://www.illusion.ee/"><img id="koduleht" src="illusion.png" alt="Illusioni koduleht"></a>
+    </h2>
+<div class="row">
+	<div class="column">
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+		  		<div class="numbertext">1 / 3</div>
+		  		<img src="illukas2.jpg" style="width:100%" alt="Esimene pilt">
+		  		<div class="text">Extreme w Dimension / Romm&Moose</div>
+			</div>
+	  
+			<div class="mySlides fade">
+		  		<div class="numbertext">2 / 3</div>
+		  		<img src="illukas4.jpg" style="width:100%" alt="Teine pilt">
+		  		<div class="text">Baar</div>
+			</div>
+	  
+			<div class="mySlides fade">
+		  		<div class="numbertext">3 / 3</div>
+		  		<img src="illukas3.jpg" style="width:100%" alt="Kolmas pilt">
+		  		<div class="text">Peasaal ja rõdu</div>
+			</div>
+
+			<script>plusSlides(0)</script>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  	</div>
+	  	<br>
+	  
+	  	<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+	  	</div>	
+		<p id = "tekst">Klubis Illusion on kaks saali – ovaalse baariga peasaal ja suur baariga rõdu. Klubi programm on mitmekesine. Selle sisustavad mitmesuguse muusikalise suunitlusega (pop, rock, urban, house, drum & bass) üritused, kus võib näha ja kuulda maailmas nime teinud artiste ning Eesti DJ-de ja bändide paremikku.
+				Kolmapäeviti mängitakse popp muusika klassikat üritusel Retro.
+				Reedeti ja laupäeviti kuuleb tavaliselt hetke edetabelihitte, toimuvad pop-, rock- ja urban (hiphop) muusika kontserdid ning kord kuus drum & bass sari Sin City.
+				Stiilse, glamuuririkka ja kitširohke interjööri autor on sisekujundaja Jaanis Ilves, kes on oma töö võtnud kokku ühe lihtsa sõnaühendiga - „koleilus“. Tulge vaadake, kui ei usu! </p>         
+	</div>
+	<div class="column">	
+        <div class="gmap_canvas">
+			<iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Club%20illusion&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+        </div>
+		<p id="asukoht">Raatuse 97</p>
+		<p id="kell">K, R-L 23.00-04.00</p>
+		
+	</div>
+</div>
+
 </body>
-
-
-
 
 </html>

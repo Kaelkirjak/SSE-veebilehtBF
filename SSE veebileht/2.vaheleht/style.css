@@ -1,3 +1,174 @@
-p {
-color: red;
+h1 {
+	color: rgb(255, 255, 255);
+	font-family: "Copperplate Gothic" ;
+	font-size: 70px;
+	text-align: left;
+}
+h3 {
+	color: black;
+	font-family: "Copperplate Gothic";
+	font-size: 25px;
+	text-align: left;
+}
+body {
+	font-family: "Copperplate Gothic";
+	background-image: url(taust.jpg);
+	background-size: 2880px 1620px;
+	color: black;
+	text-align: left;
+}
+th {
+	color: black;
+	background-color: red;
+}
+tr {
+	text-align: center;
+}
+td {
+	font-weight:bold;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#liigutus {
+	text-align: center;   
+}
+#asukoht {
+	text-align: center;
+	font-size: 30px;
+}
+#kell {
+	text-align: center;
+	font-size: 30px;
+}
+
+#instagram {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+#facebook {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+#koduleht {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+#sotsiaalmeedia {
+	text-align: center;
+}
+#tekst {
+	color:rgb(29, 11, 21);
+	font-family: "Copperplate Gothic";
+	font-size: 20px;
+	text-align: left;
+	position: relative; left:95px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+	height:500px;width:700px;
+	position: relative; left:95px;
+	
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width:80%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right:0 ;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
